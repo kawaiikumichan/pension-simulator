@@ -24,7 +24,7 @@
     "chart.js": "^4.5.1",
     "svelte-preprocess": "^6.0.3",
     "typescript": "^5.9.3"
-  },  <-- このカンマ（,）が重要
+  },
   "engines": {
     "node": "20.x"
   }
