@@ -1,0 +1,22 @@
+// C:\src\svelte-pension-tool\tsconfig.json
+
+{
+  // ★修正点: パスが正しいことを確認
+  "extends": "./.svelte-kit/tsconfig.json", 
+  "compilerOptions": {
+    "moduleResolution": "bundler",
+    "allowJs": true,
+    "checkJs": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strict": true,
+    
+    // エラー解消のための必須設定
+    "verbatimModuleSyntax": true 
+  },
+  // ★追記: srcディレクトリの設定を明確にする
+  "include": ["src/**/*.ts", "src/**/*.js", "src/**/*.svelte"]
+}
